@@ -101,10 +101,10 @@ input, select, textarea {
 
 	body {
 		background-color: #120610;
-		background-image: url("images/Ga.png"), 
-		background-image: url("images/Ga.png"), 
-		background-image: url("images/Ga.png"), 
-		background-image: url("images/Ga.png"), 
+		background-image: url("assets/css/images/Ga.png"), 
+		background-image: url("assets/css/images/Ga.png"), 
+		background-image: url("assets/css/images/Ga.png"), 
+		background-image: url("assets/css/images/Ga.png"), 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -122,7 +122,7 @@ input, select, textarea {
 
 	body {
 		background-color: #120610;
-		background-image: url("images/Ga.png");
+		background-image: url("assets/css/images/Ga.png");
 	}
 
 	body, input, select, textarea {
@@ -3784,6 +3784,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
