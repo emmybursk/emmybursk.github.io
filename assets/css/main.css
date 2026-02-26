@@ -3803,20 +3803,6 @@ input, select, textarea {
 
 
 
-.photo-icon {
-  background-image: url("images/DM2.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.icon.major {
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-
-
 
 
 
