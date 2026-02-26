@@ -112,12 +112,7 @@ input, select, textarea {
 	/* iPhone */
 	@media (max-width: 850px) {
   		body {
-    		background: 
-				linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-				url("/images/DM1-mobile.heic");
-    		background-size: 100% auto;
-    		background-position: center;
-    		background-repeat: no-repeat;
+    		background: #18071f; 
   		}
 	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3797,6 +3792,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
