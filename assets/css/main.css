@@ -113,7 +113,7 @@ input, select, textarea {
 	@media (max-width: 800px) {
   		body {
     		background: url("/images/DM1-mobile.jpeg");
-    		background-size: cover;
+    		background-size: 100% auto;
     		background-position: center;
     		background-repeat: no-repeat;
   		}
@@ -3795,6 +3795,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
