@@ -114,7 +114,7 @@ input, select, textarea {
   		body {
     		background: 
 				linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-				url("/images/DM1.webp");
+				url("/images/DM1-mobile.heic");
     		background-size: 100% auto;
     		background-position: center;
     		background-repeat: no-repeat;
@@ -3797,6 +3797,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
