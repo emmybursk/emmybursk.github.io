@@ -101,7 +101,7 @@ input, select, textarea {
 
 	body {
     	background: 
-        	linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        	linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
         	url("/images/DM1.jpeg");
     	background-size: cover;
     	background-position: center;
@@ -3785,6 +3785,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
