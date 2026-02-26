@@ -111,15 +111,12 @@ input, select, textarea {
 
 	/* iPhone */
 	@media (max-width: 768px) {
-    	body {
-        	background:
-            	linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-            	url("/images/DM1.webp");
-        	background-size: contain;
-        	background-position: center;
-        	background-repeat: no-repeat;
-        	background-attachment: scroll;
-    	}
+  		body {
+    		background: url("/images/DM1.webp");
+    		background-size: cover;
+    		background-position: center;
+    		background-repeat: no-repeat;
+  		}
 	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -3798,6 +3795,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
