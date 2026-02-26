@@ -83,10 +83,10 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 470px) {
 
 		html, body {
-			min-width: 320px;
+			min-width: 310px;
 		}
 
 	}
@@ -114,10 +114,11 @@ input, select, textarea {
   		body {
     		background: linear-gradient(
       		180deg,
-      			#c45497 0%,
-      			#8f3c8f 45%,
-      			#4a1d5e 80%,
-      			#230c33 100%
+      		#1a0b2e 0%,      /* deep violet-black */
+      		#3b1361 25%,     /* rich indigo */
+      		#7b1e7a 55%,     /* cosmic magenta */
+      		#c23a8a 75%,     /* bright filament pink */
+      		#f6b34c 100%     /* warm golden glow */
     		);
   		}
 	}
@@ -3798,6 +3799,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
