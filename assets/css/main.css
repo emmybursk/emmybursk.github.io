@@ -108,11 +108,13 @@ input, select, textarea {
 ##	}
 
 	body {
-    	background-image: url("images/Ga.png");
-    	background-size: cover;        /* makes it fill the whole screen */
-    	background-position: center;   /* keeps it centered */
-    	background-repeat: no-repeat;  /* prevents tiling */
-    	background-attachment: fixed;  /* optional: makes it stay still when scrolling */
+    	background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("images/Ga.png");
+    	background-size: cover;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3792,4 +3794,5 @@ input, select, textarea {
 			}
 
 		}
+
 
