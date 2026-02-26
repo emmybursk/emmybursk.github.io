@@ -110,9 +110,11 @@ input, select, textarea {
 	}
 
 	/* iPhone */
-	@media (max-width: 800px) {
+	@media (max-width: 900px) {
   		body {
-    		background: url("/images/DM1-mobile.jpeg");
+    		background: 
+				linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+				url("/images/DM1-mobile.jpeg");
     		background-size: 100% auto;
     		background-position: center;
     		background-repeat: no-repeat;
@@ -3795,6 +3797,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
