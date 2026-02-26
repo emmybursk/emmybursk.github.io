@@ -112,7 +112,13 @@ input, select, textarea {
 	/* iPhone */
 	@media (max-width: 850px) {
   		body {
-    		background: #18071f; 
+    		background: linear-gradient(
+      		160deg,
+      		#1a0f1f 0%,
+      		#2b1035 35%,
+      		#4a164f 65%,
+      		#6b1e63 100%
+    		);
   		}
 	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3792,6 +3798,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
