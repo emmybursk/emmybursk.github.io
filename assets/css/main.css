@@ -115,7 +115,7 @@ input, select, textarea {
         	background:
             	linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
             	url("/images/DM1-mobile.jpeg");
-        	background-size: cover;
+        	background-size: contain;
         	background-position: center;
         	background-repeat: no-repeat;
         	background-attachment: scroll;
@@ -3798,6 +3798,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
