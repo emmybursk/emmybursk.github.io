@@ -113,11 +113,11 @@ input, select, textarea {
 	@media (max-width: 850px) {
   		body {
     		background: linear-gradient(
-      		160deg,
-      		#1a0f1f 0%,
-      		#2b1035 35%,
-      		#4a164f 65%,
-      		#6b1e63 100%
+      		180deg,
+      			#c05acb 0%,
+      			#8a4fd1 40%,
+      			#5a3fb5 70%,
+      			#2e1f6b 100%
     		);
   		}
 	}
@@ -3798,6 +3798,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
