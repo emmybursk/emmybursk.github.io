@@ -99,12 +99,20 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+##	body {
+##		background-color: #935d8c;
+##		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+##		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+##		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+##		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+##	}
+
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    	background-image: url("images/Ga.png");
+    	background-size: cover;        /* makes it fill the whole screen */
+    	background-position: center;   /* keeps it centered */
+    	background-repeat: no-repeat;  /* prevents tiling */
+    	background-attachment: fixed;  /* optional: makes it stay still when scrolling */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3784,3 +3792,4 @@ input, select, textarea {
 			}
 
 		}
+
