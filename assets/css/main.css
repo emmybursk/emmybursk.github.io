@@ -104,6 +104,12 @@ input, select, textarea {
     	background-size: cover;
     	background-position: center;
 	}
+
+	@media (max-width: 768px) {
+    	body {
+        	background-attachment: scroll;
+    	}
+	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -113,13 +119,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
-
-	@media (max-width: 768px) {
-    body {
-        background-image: url("/images/DM1-mobile.jpeg");
-    	}
-	}	
+		}	
 
 /* Type */
 
@@ -3787,6 +3787,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
