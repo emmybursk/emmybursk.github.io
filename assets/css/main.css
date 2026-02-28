@@ -142,7 +142,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: "Georgia", Helvetica, sans-serif;
-		font-size: 18pt;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -150,7 +150,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 15pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -3799,6 +3799,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
