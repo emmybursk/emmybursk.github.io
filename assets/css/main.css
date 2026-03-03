@@ -2715,10 +2715,23 @@ input, select, textarea {
 			margin-top: 0;
 		}
 
-	}
+	##}
 
-	header.major h2:after {
-		background-color: rgba(255, 255, 255, 0.35);
+	##header.major h2:after {
+	##	background-color: rgba(255, 255, 255, 0.35);
+	##}
+	header.major h2 {
+    	text-align: left;          /* left-aligns the text */
+	}
+	
+	header.major::after {
+	    content: "";               /* if your underline uses a pseudo-element */
+	    display: block;
+	    width: 50px;               /* adjust underline length */
+	    height: 3px;               /* underline thickness */
+	    background: #ccc;          /* underline color */
+	    margin-left: 0;            /* aligns underline to left instead of center */
+	    margin-top: 0.5rem;        /* spacing below title */
 	}
 
 /* Table */
@@ -3799,6 +3812,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
